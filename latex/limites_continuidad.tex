@@ -1,0 +1,86 @@
+\section{Límites y continuidad}
+
+\subsection{Límites}
+
+ Diremos que la función tiene un \emph{límite $L$ cuando $x$ aproxima $a$} si para cada $\epsilon >0$, podemos encontrar $\delta >0$ tal que
+ \begin{align*}
+  \abs{f(x)-l} < \epsilon
+  \end{align*}
+siempre que
+\begin{align*}
+ 0 < \abs{x-a} < \delta.
+ \end{align*}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+  En ese caso, escribimos
+  \begin{align*}
+   \lim_{x \to a} f(x) = L
+   \end{align*}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+  \begin{resuelto}
+   Calcula los siguientes límites, trazando las gráficas correspondientes:
+   \begin{enumerate}[(i)]
+     %NUEVO ITEM
+     \item $\lim_{x\to 1}\left( x^{2}-4x+8 \right)$
+     \item $\lim_{x\to 2}\dfrac{x^{2}-4}{x-2}$
+     \item $\lim_{x\to 0}\dfrac{\sin(x)}{x}$
+\end{enumerate}
+  \end{resuelto}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+\begin{proposicion}
+
+	Si $\lim_{x \to a}f_{1}(x)= L_{1}$ y $\lim_{x \to a }f_{2}(x)= L_{2}$, entonces
+	\begin{enumerate}[(i)]
+		%NUEVO ITEM
+		\item $\lim_{x\to a}\left( f_{1}(x)\pm f_{2}(x) \right) = L_{1}\pm L_{2}$
+		\item $\lim_{x\to a}\left( f_{1}(x) f_{2}(x)\right)= L_{1}L_{2}$.
+		\item
+		$\lim_{x \to a}\dfrac{f_{1}(x)}{f_{2}(x)} = \dfrac{L_{1}}{L_{2}}$
+		\emph{siempre y cuando $L_{2}\neq 0$}.
+	\end{enumerate}
+\end{proposicion}
+
+%%%%%%%%%%%%%%%%%%%%%
+\subsection{Continuidad}
+
+  Diremos que una función es \emph{continua en el punto $x=a$} si
+  \begin{align*}
+   \lim_{x\to a} f(x)=f(a)
+   \end{align*}
+
+  \begin{resuelto}
+   Verifica que $f(x)=x^{2}-4x+8$ es continua en $x=1$, pero que
+   \begin{align*}
+   f(x)=
+    \begin{cases}
+\dfrac{x^2-4}{x-2}& x\neq 2\\
+6 & x= 2
+\end{cases}
+    \end{align*}
+    es \emph{discontinua} en $x=2$.
+
+    En ese caso, decimos que $x=2$ es una \emph{discontinuidad}.
+  \end{resuelto}
+
+
+\begin{definicion}
+	Si $f(x)$ es continua en cada punto del intervalo $x_{1}<x<x_{2}$, entonces diremos que es continua en dicho intervalo.
+\end{definicion}
+
+  \begin{proposicion}
+   Si $f(x)$ y $g(x)$ son continuas en un mismo intervalo, entonces también lo son
+   \begin{enumerate}[(i)]
+     %NUEVO ITEM
+     \item $f(x)\pm g(x)$
+
+     \item $f(x)g(x)$
+
+     \item $\dfrac{f(x)}{g(x)}$ siempre que $g(x)\neq 0$ en dicho intervalo.
+\end{enumerate}
+  \end{proposicion}
+

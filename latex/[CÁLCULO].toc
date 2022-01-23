@@ -1,0 +1,90 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Cálculo Diferencial}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Límites y continuidad}{5}{section.1.1}%
+\contentsline {subsection}{Límites}{5}{subsection*.2}%
+\contentsline {subsection}{Continuidad}{6}{subsection*.3}%
+\contentsline {section}{\numberline {1.2}Derivadas}{6}{section.1.2}%
+\contentsline {subsection}{Primeras definiciones}{6}{subsection*.4}%
+\contentsline {subsection}{Interpretación geométrica}{7}{subsection*.5}%
+\contentsline {subsection}{Relación con continuidad}{7}{subsection*.6}%
+\contentsline {subsection}{Fórmulas de derivación}{7}{subsection*.7}%
+\contentsline {section}{\numberline {1.3}Derivación implícita}{8}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Derivación logarítmica}{10}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Linealización}{12}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Optimización univariada}{14}{section.1.6}%
+\contentsline {subsection}{Optimización aplicada}{16}{subsection*.8}%
+\contentsline {section}{\numberline {1.7}Análisis de Gráficas}{16}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Problemas}{22}{section.1.8}%
+\contentsline {subsection}{Límites y continuidad}{22}{subsection*.9}%
+\contentsline {subsection}{Derivadas}{23}{subsection*.10}%
+\contentsline {chapter}{\numberline {2}Cálculo Integral}{25}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Antiderivadas}{25}{section.2.1}%
+\contentsline {subsection}{Integración por sustitución}{26}{subsection*.11}%
+\contentsline {subsection}{Ejemplos Resueltos}{28}{subsection*.12}%
+\contentsline {section}{\numberline {2.2}La integral definida}{28}{section.2.2}%
+\contentsline {subsection}{Notación ``Sigma''}{28}{subsection*.13}%
+\contentsline {subsection}{Linealidad}{29}{subsection*.14}%
+\contentsline {subsection}{Área bajo la curva}{29}{subsection*.15}%
+\contentsline {subsection}{Propiedades de la Integral Definida}{32}{subsection*.16}%
+\contentsline {subsection}{Propiedades: Linealidad}{32}{subsection*.17}%
+\contentsline {subsection}{Propiedades: Límites}{32}{subsection*.18}%
+\contentsline {subsection}{Ejemplos Resueltos}{32}{subsection*.19}%
+\contentsline {section}{\numberline {2.3}El Teorema Fundamental del Cálculo}{32}{section.2.3}%
+\contentsline {subsection}{Valor promedio de una función}{32}{subsection*.20}%
+\contentsline {subsection}{Valor promedio de una función}{33}{subsection*.21}%
+\contentsline {subsection}{Enunciado del T.F.C}{33}{subsection*.22}%
+\contentsline {subsection}{Ejemplos Resueltos}{34}{subsection*.23}%
+\contentsline {section}{\numberline {2.4}Integraci\'on por partes}{36}{section.2.4}%
+\contentsline {subsection}{Ejemplos Resueltos}{37}{subsection*.24}%
+\contentsline {section}{\numberline {2.5}Fracciones parciales}{38}{section.2.5}%
+\contentsline {subsection}{Método de Fracciones Parciales}{39}{subsection*.25}%
+\contentsline {subsection}{Caso I. $D(x)$ es producto de factores lineales distintos}{39}{subsection*.26}%
+\contentsline {subsection}{Regla General para Caso 1}{39}{subsection*.27}%
+\contentsline {subsection}{Caso 2. $D(x)$ es producto de factores lineales repetidos.}{40}{subsection*.28}%
+\contentsline {subsection}{Regla General para el Caso 2.}{40}{subsection*.29}%
+\contentsline {subsection}{Caso 3. Factores cuadráticos irreducibles distintos, y lineales repetidos}{40}{subsection*.30}%
+\contentsline {subsection}{Caso IV. Factores cuadráticos irreducibles repetidos}{40}{subsection*.31}%
+\contentsline {section}{\numberline {2.6}Técnicas de integaci\'on trigonométrica}{40}{section.2.6}%
+\contentsline {subsection}{Integrados trigonométricos}{40}{subsection*.32}%
+\contentsline {subsection}{Caso 1}{41}{subsection*.33}%
+\contentsline {subsection}{Tipo 1.1}{41}{subsection*.34}%
+\contentsline {subsection}{Tipo 1.2}{41}{subsection*.35}%
+\contentsline {subsection}{Caso 2}{41}{subsection*.36}%
+\contentsline {subsection}{Tipo 2.1}{41}{subsection*.37}%
+\contentsline {subsection}{Tipo 2.2}{42}{subsection*.38}%
+\contentsline {subsection}{Tipo 2.3}{42}{subsection*.39}%
+\contentsline {subsection}{Caso 3}{42}{subsection*.40}%
+\contentsline {subsection}{Sustituci\'on trigonométrica}{43}{subsection*.41}%
+\contentsline {subsection}{Estrategia I}{43}{subsection*.42}%
+\contentsline {subsection}{Estrategia II}{43}{subsection*.43}%
+\contentsline {subsection}{Estrategia III}{43}{subsection*.44}%
+\contentsline {section}{\numberline {2.7}\'Area y longitud de arco}{43}{section.2.7}%
+\contentsline {subsection}{\'Area entre una curva y el eje vertical}{43}{subsection*.45}%
+\contentsline {subsection}{\'Area entre curvas}{45}{subsection*.46}%
+\contentsline {subsection}{Longitud de arco}{45}{subsection*.47}%
+\contentsline {subsection}{Ejemplos}{47}{subsection*.48}%
+\contentsline {section}{\numberline {2.8}Volumen}{47}{section.2.8}%
+\contentsline {subsection}{F\'ormula del Disco}{49}{subsection*.49}%
+\contentsline {subsection}{M\'etodo de Washer}{50}{subsection*.50}%
+\contentsline {subsection}{M\'etodo de las capas cil\'indricas}{50}{subsection*.51}%
+\contentsline {subsection}{Diferencia de Capas}{52}{subsection*.52}%
+\contentsline {subsection}{Secciones trasnversales (rebanadas)}{54}{subsection*.53}%
+\contentsline {section}{\numberline {2.9}Integrales impropias}{54}{section.2.9}%
+\contentsline {subsection}{L\'imites al infinito}{54}{subsection*.54}%
+\contentsline {subsection}{Discontinuidades del integrando}{55}{subsection*.55}%
+\contentsline {section}{\numberline {2.10}Área de Superficies de Revoluci\'on}{56}{section.2.10}%
+\contentsline {chapter}{\numberline {3}Cálculo en varias variables}{59}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Representación paramétrica de curvas}{59}{section.3.1}%
+\contentsline {subsection}{Ecuaciones paramétricas}{59}{subsection*.56}%
+\contentsline {subsection}{Longitud de arco}{60}{subsection*.57}%
+\contentsline {subsection}{Ejemplos}{60}{subsection*.58}%
+\contentsline {section}{\numberline {3.2}Derivadas Parciales}{61}{section.3.2}%
+\contentsline {subsection}{Objetivos del aprendizaje}{61}{subsection*.59}%
+\contentsline {subsection}{Derivadas parciales de primer orden}{61}{subsection*.60}%
+\contentsline {subsection}{Derivadas parciales de primer orden}{61}{subsection*.61}%
+\contentsline {subsection}{Algunas propiedades y f\'ormulas}{61}{subsection*.62}%
+\contentsline {subsection}{Cálculo de derivadas parciales}{62}{subsection*.63}%
+\contentsline {subsection}{Clasificaci\'on de Puntos Cr\'iticos}{63}{subsection*.64}%
+\contentsline {subsection}{Hessiano de una funci\'on}{65}{subsection*.65}%
+\contentsline {chapter}{\numberline {4}Bibliograf\'{\i }a}{67}{chapter.4}%
+\contentsfinish 
