@@ -11,7 +11,7 @@
 
 
 	Si $g(x)\equiv 0,$ diremos que \eqref{bron:8.1} es \emph{homog\'enea.}\footnote{Observe que es homog\'enea en un sentido diferente a la secci\'on previa;} tambi\'en diremos que es de \emph{coeficientes constantes} si cada $b_{j}(x)$ es precisamente una constante.
-	
+
 
 
 
@@ -22,10 +22,10 @@
 			\label{bron:8.2}
 			y(x_{0})=c_{0}, \, y'(x_{0})=c_{1}, \, \cdots \, y^{(n-1)}=c_{n-1}.
 		\]
-		
+
 		Si $g(x)$ y $b_{j}(x), j=0,1,...,n$ son continuas en algún intervalo $\mathcal{I}$ que contiene a $x_{0}$ y si $b_{n}(x)\neq 0$ en $\mathcal{I},$ entonces el problema de valor inicial dado por \eqref{bron:8.1} y \eqref{bron:8.2} tiene una \emph{única} soluci\'on definida a trav\'es de $\mathcal{I}.$
 	\end{teorema}
-	
+
 
 
 
@@ -36,7 +36,7 @@
 	\]
 	donde $$a_{j}(x)=\dfrac{b_{j}(x)}{b_{n}(x)}, \, j=0,1,\cdot, n-1$$ y
 	$\phi(x)=\frac{g(x)}{b_{n}(x)}.$
-	
+
 
 
 
@@ -46,7 +46,7 @@
 		L(y)\equiv y^{(n)}+a_{n-1}(x)y^{(n-1)}+...+a_{0}(x)y
 	\]
 	donde $a_{i}(x), \, i=0,1,...,n-1,$ son continuas en un intervalo de inter\'es.
-	
+
 
 
 
@@ -60,7 +60,7 @@
 		\label{bron:8.6}
 		L(y)=0
 	\]
-	
+
 
 
 \subsection{Soluciones Linealmente Independientes}
@@ -82,7 +82,7 @@
 
 
 
-	\begin{problema}
+	\begin{resuelto}
 		El conjunto
 		$$
 		\set{x, 5x, 1, \sin(x)}
@@ -91,15 +91,15 @@
 		$$
 		-5\cdot x+1\cdot 5x+0\cdot 1+0\cdot \sin(x)=0.
 		$$
-	\end{problema}
-	
+	\end{resuelto}
+
 
 
 
 	\begin{observacion}
 		El conjunto $$c_{1}=\cdots =c_{n}=0$$ siempre resuelve \eqref{bron:8.7}. De hecho, \emph{si es la única soluci\'on}  diremos que $\set{y_{i}(x)}_{i=1,...,n}$ es \emph{linealmente independiente.}
 	\end{observacion}
-	
+
 
 
 
@@ -133,19 +133,19 @@
 	\begin{teorema}
 		\label{bron:thm:8.3}
 		\begin{enumerate}
-			\item   Si el Wronskiano de un conjunto de $n$ funciones definidas en un intervalo $a \leq x \leq b$ es diferente de cero, para al menos en un punto en este intervalo, entonces el conjunto de funciones es linealmente independiente.			
+			\item   Si el Wronskiano de un conjunto de $n$ funciones definidas en un intervalo $a \leq x \leq b$ es diferente de cero, para al menos en un punto en este intervalo, entonces el conjunto de funciones es linealmente independiente.
 			\item
 			Si el Wronskiano es \emph{identicamente cero} en dicho intervalo y cada uno de las funciones es una \emph{soluci\'on de la misma ecuaci\'on diferencial}, entonces el conjunto de funciones es linealmente dependiente.
 		\end{enumerate}
 	\end{teorema}
-	
+
 
 
 
 	\begin{observacion}
 		El teorema \ref{bron:thm:8.3} no es concluyente cuando el wronskiano es identicamente cero, pero las funciones no son soluciones de una misma ecuaci\'on diferencial.
 	\end{observacion}
-	
+
 
 
 \subsection{Ecuaciones No Homogeneas}
@@ -158,63 +158,63 @@
 		\label{bron:thm:8.4}
 		La soluci\'on general de la ecuaci\'on $L(y)=\phi(x)$ es $y=y_{p}+y_{h}.$
 	\end{teorema}
-	
+
 
 
 \subsection{Ejemplos}
 
 
-	\begin{problema}
+	\begin{resuelto}
 		\begin{itemize}
 			\item Encuentre el wronskiano de $\set{e^{x},e^{-x}}.$
-			
+
 			\item Determine si el conjunto es linealmente independiente en $(-\infty,+\infty).$
-			
+
 			\item Verifique directamente la definición.
 		\end{itemize}
-		
-	\end{problema}
-	
+
+	\end{resuelto}
 
 
 
-	\begin{problema}
+
+	\begin{resuelto}
 		\begin{itemize}
 			\item Encuentre el wronskiano de $\set{\sin(3x), \cos(3x)}.$
 			\item Determine si el conjunto es linealmente independiente en $(-\infty,+\infty).$
-			
+
 			\item Verifique directamente la definición.
 		\end{itemize}
-		
-	\end{problema}
-	
+
+	\end{resuelto}
 
 
 
-	\begin{problema}
+
+	\begin{resuelto}
 		\begin{itemize}
 			\item Encuentre el wronskiano de $\set{x,x^{2}, x^{3}}.$
-			
+
 			\item Determine si el conjunto es linealmente independiente en $(-\infty,+\infty).$
-			
+
 			\item Verifique directamente la definición.
 		\end{itemize}
-	\end{problema}
-	
+	\end{resuelto}
 
 
 
-	\begin{problema}
+
+	\begin{resuelto}
 		\begin{itemize}
 			\item  Encuentre el wronskiano de $\set{1-x, 1+x, 1-3x}.$
-			
+
 			\item Verifique directamente si el linealmente independiente a partir de  la definición.
-			
+
 			\item Realice nuevamente el ejercicio, sabiendo que las funciones son soluci\'on de la ecuaci\'on $y''=0.$
 		\end{itemize}
-		
-	\end{problema}
-	
+
+	\end{resuelto}
+
 
 
 
