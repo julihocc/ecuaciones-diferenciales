@@ -11,7 +11,7 @@
     \end{align*}
     y  viceversa.
 
-%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{Separación de variables}
 
 Una ecuación es \emph{separable} si se puede escribir en la forma.
@@ -19,7 +19,7 @@ Una ecuación es \emph{separable} si se puede escribir en la forma.
  f_{1}(x)g_{1}(y)dx+f_{2}(x)g_{2}(y)dy = 0
  \end{align*}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
 En ese caso, su solución  está dada por
    \begin{align*}
@@ -28,7 +28,7 @@ En ese caso, su solución  está dada por
   \end{align*}
   siempre que $g_{1}(y)f_{2}(x)\neq 0$.
 
-%%%%%%%%%%%%%%%%%%%%%
+
 
 	\begin{resuelto}
 		Resuelve la ecuación diferencial
@@ -55,14 +55,14 @@ En ese caso, la solución está dada por
 U(x,y) = c
 \end{align*}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
 Un criterio para determinar si una ecuación es exacta es verificar que
 \begin{align*}
     \dfrac{\partial M}{\partial y}= \dfrac{\partial N}{\partial x}
     \end{align*}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 
 	\begin{resuelto}
 		Determina si la ecuación
@@ -80,7 +80,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
 
    donde \emph{$\partial x$} indica que la integración es realizada únicamente respecto a $x$, manteniendo $y$ constante.
 
-%%%%%%%%%%%%%%%%%%%%%
+
 
 	\begin{resuelto}
 		Demuestra que la ecuación
@@ -103,7 +103,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
   \end{align*}
   es exacta.
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   \begin{figure}
  \centering
@@ -114,7 +114,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
 \end{figure}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{Ecuaciones lineales}
 {}
   Diremos que una ecuación es lineal si se puede reescribir en la forma:
@@ -122,7 +122,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
    \dfrac{dy}{dx} + p(x)y=q(x)
    \end{align*}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   En este caso, un factor integrantes está dado por
   \begin{align*}\displaystyle
@@ -133,7 +133,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
     \dfrac{d}{dx}\left( \mu y  \right) = \mu q(x)
     \end{align*}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   Entonces,
   \begin{align*}\displaystyle
@@ -145,7 +145,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
     &= e^{-\int pdx}\int e^{\int p dx}  q(x) dx +c e^{-\int pdx}
     \end{align*}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   \begin{resuelto}
    Reescribe la ecuación
@@ -156,7 +156,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
   \end{resuelto}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{Ecuaciones homogéneas de orden cero}
 {}
   Diremos que una ecuación diferencial es \emph{homogénea de orden cero} si se puede reescribir como
@@ -164,11 +164,11 @@ Un criterio para determinar si una ecuación es exacta es verificar que
  \dfrac{dy}{dx}=F\left( \dfrac{y}{x} \right)
  \end{align*}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   Definimos la variable dependiente $\nu = \dfrac{y}{x}$, de manera que $y = \nu x$.
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   Entonces la ecuación diferencial se puede reescribir como
   \begin{align*}
@@ -179,7 +179,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
     xd\nu + \left( F(\nu)-v \right)dx =0.
     \end{align*}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   Entonces tiene su solución está dada por
   \begin{align*}
@@ -187,7 +187,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
    \ln |x| = \int \dfrac{d\nu}{F(\nu)-\nu}+c
    \end{align*}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   \begin{resuelto}
    Reescriba la ecuación
@@ -198,7 +198,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
   \end{resuelto}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{Ecuaciones de Bernoulli}
 {}
   Diremos que una ecuación es de Bernoulli si se puede reescribir en la forma
@@ -207,7 +207,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
    \end{align*}
    siempre que $n \neq 0,1$
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   En ese caso, hacemos la sustitución $\nu = y^{1-n}$ y la ecuación se reduce a una ecuación lineal, cuya solución está dada por
   \begin{align*}
@@ -216,7 +216,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
    \left( 1-n \right) \int q e^{(1-n)\int pdx}+c
    \end{align*}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   \begin{observacion}
    \begin{enumerate}[(i)]
@@ -228,7 +228,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
   \end{observacion}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   \begin{resuelto}
    Resuelve la ecuación
@@ -238,7 +238,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
   \end{resuelto}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{Ecuaciones solubles}
 {}
   Diremos que una ecuación diferencial es soluble para $y$ si
@@ -247,7 +247,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
    \end{align*}
    donde $p = y'$.
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   En ese caso,
   \begin{align*}
@@ -260,7 +260,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
     p = \dfrac{\partial g}{\partial x}+\dfrac{\partial g}{\partial p}\dfrac{\partial p}{\partial x}
    \end{align*}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   Resolvemos la ecuación anterior para $p$
   \begin{align*}
@@ -268,7 +268,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
    \end{align*}
    y sustituimos en $y=g(x,p)$.
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   \begin{resuelto}
    Resuelve la ecuación
@@ -279,7 +279,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
   \end{resuelto}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{Ecuación de Clairaut}
 {}
   Diremos que una ecuación es de Clairaut si se puede reescribir como
@@ -288,14 +288,14 @@ Un criterio para determinar si una ecuación es exacta es verificar que
    \end{align*}
    donde $p = y'$
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   Este es un caso especial del tipo anterior con solución
   \begin{align*}
    y = cx + F(c)
    \end{align*}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   \begin{resuelto}
    Resuelve la ecuación
@@ -306,7 +306,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
   \end{resuelto}
 
 
-%%%%%%%%%%%%%%%%%%%%
+%%%%%%
  \subsection{Miscelanea}
  {}
    Si la ecuación se puede reescribir como
@@ -317,7 +317,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
      \nu = \alpha + \beta y
      \end{align*}
 
- %%%%%%%%%%%%%%%%%%%%%
+
  {}
    Si la ecuación se puede reescribir como
    \begin{align*}
@@ -328,7 +328,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
     } \right)
     \end{align*}
 
- %%%%%%%%%%%%%%%%%%%%%
+
  {}
    Si $
     \dfrac{\alpha_{1}}{\alpha_{2}}\neq \dfrac{\beta_{1}}{\beta_{2}}
@@ -337,20 +337,20 @@ Un criterio para determinar si una ecuación es exacta es verificar que
      x = X+h, y=Y+k
      \end{align*}
 
- %%%%%%%%%%%%%%%%%%%%%
+
  {}
    Si $
     \dfrac{\alpha_{1}}{\alpha_{2}}= \dfrac{\beta_{1}}{\beta_{2}}
     $,la ecuación se reduce al tipo anterior.
 
 
- %%%%%%%%%%%%%%%%%%%%%
+
 \subsection{Reducción de orden}
 {}
   Si una ecuación diferencial es de orden $m>1$, pero hace falta de forma explícita la variable dependiente $y$, entonces se puede reducir de orden con la sustitución
   $y'=p$.
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   \begin{resuelto}
    Resuelve la ecuación
@@ -360,7 +360,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
   \end{resuelto}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {}
   \begin{resuelto}
    Resuelve la ecuación
@@ -370,7 +370,7 @@ Un criterio para determinar si una ecuación es exacta es verificar que
   \end{resuelto}
 con la reducción de orden $y'=p$.
 
-%%%%%%%%%%%%%%%%%%%%%
+
 % ejemplos de ecuaciones de primer orden...
 % ecuaciones separables
 

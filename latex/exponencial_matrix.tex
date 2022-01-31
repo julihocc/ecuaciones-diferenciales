@@ -180,7 +180,7 @@ A=\bm{-1 & 0 \\ 1 & 2}.
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -201,11 +201,11 @@ A: matrix(
 \parbox{8ex}{\color{labelcolor}(\%o1) }
 \begin{pmatrix}-1 & 0\cr 1 & 2\end{pmatrix}
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -223,7 +223,7 @@ eigenvectors(%);
 \parbox{8ex}{\color{labelcolor}(\%o2) }
 [[[-1,2],[1,1]],[[[1,-\frac{1}{3}]],[[0,1]]]]
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 Esto quiere decir que $\lam_{1}=-1$ es un valor propio con vector propio $$
 \bm{1\\ -\frac{1}{3}},
@@ -241,7 +241,7 @@ como columnas a estos vectores y verificamos que esta matriz es invertible.
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -262,11 +262,11 @@ P: matrix(
 \parbox{8ex}{\color{labelcolor}(\%o4) }
 \begin{pmatrix}1 & 0\cr -\frac{1}{3} & 1\end{pmatrix}
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -284,7 +284,7 @@ determinant(%);
 \parbox{8ex}{\color{labelcolor}(\%o5) }
 1
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 Entonces, $F=\basis{\bm{1\\ -\frac{1}{3}}, \bm{0 \\ 1}}$ es una base de $\R^{2},$ de vectores propios de $A.$ Por tanto
 $A$ es diagonalizable. Como $P$ es la matriz de cambio de la base $F$ a la base estandar $E$, usamos la siguiente
@@ -296,7 +296,7 @@ para encontrar la matriz diagonalizada $D.$ Denotaremos a $P^{-1}$ por $Q.$
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -314,11 +314,11 @@ Q:invert(P);
 \parbox{8ex}{\color{labelcolor}(\%o6) }
 \begin{pmatrix}1 & 0\cr \frac{1}{3} & 1\end{pmatrix}
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -336,7 +336,7 @@ D:Q.A.P;
 \parbox{8ex}{\color{labelcolor}(\%o7) }
 \begin{pmatrix}-1 & 0\cr 0 & 2\end{pmatrix}
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 Entonces, sabemos que
 \begin{align*}
@@ -351,7 +351,7 @@ Podemos hacer los cálculos en \texttt{WxMaxima} de la siguiente manera
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -372,11 +372,11 @@ matrix(
 \parbox{8ex}{\color{labelcolor}(\%o8) }
 \begin{pmatrix}{e}^{-t} & 0\cr 0 & {e}^{2\,t}\end{pmatrix}
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -394,7 +394,7 @@ P.%o8.Q;
 \parbox{8ex}{\color{labelcolor}(\%o9) }
 \begin{pmatrix}{e}^{-t} & 0\cr \frac{{e}^{2\,t}}{3}-\frac{{e}^{-t}}{3} & {e}^{2\,t}\end{pmatrix}
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 Es decir,
 $$
@@ -415,7 +415,7 @@ matriz de dos reglos y una columnas
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -436,14 +436,14 @@ matrix(
 \parbox{8ex}{\color{labelcolor}(\%o10) }
 \begin{pmatrix}0\cr 3\end{pmatrix}
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 y posteriormente hacemos la multiplicación, recordando que \texttt{WxMaxima} le asigno la etiqueta \texttt{\%o9} a
 nuestra matriz $e^{tA}$, y la etiqueta \texttt{\%o10} a nuestro vector de condiciones inciales.
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -461,7 +461,7 @@ nuestra matriz $e^{tA}$, y la etiqueta \texttt{\%o10} a nuestro vector de condic
 \parbox{8ex}{\color{labelcolor}(\%o11) }
 \begin{pmatrix}0\cr 3\,{e}^{2\,t}\end{pmatrix}
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 Por tanto, la solucion a nuestro sistema de ecuaciones diferenciales es
 $$

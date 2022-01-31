@@ -3,37 +3,85 @@
 \setcounter{tocdepth}{1}
 \setcounter{secnumdepth}{1}
 
-\definecolor{mycolor1}{RGB}{251, 54, 64}
-\definecolor{mycolor2}{RGB}{96, 95, 94}
-\definecolor{mycolor3}{RGB}{29, 52, 97}
-\definecolor{mycolor4}{RGB}{31, 72, 126}
-\definecolor{mycolor5}{RGB}{36, 123, 160}
+%\definecolor{mycolor1}{RGB}{251, 54, 64}
+%\definecolor{mycolor2}{RGB}{96, 95, 94}
+%\definecolor{mycolor3}{RGB}{29, 52, 97}
+%\definecolor{mycolor4}{RGB}{31, 72, 126}
+%\definecolor{mycolor5}{RGB}{36, 123, 160}
 
+%https://coolors.co/palette/001219-005f73-0a9396-94d2bd-e9d8a6-ee9b00-ca6702-bb3e03-ae2012-9b2226
+%\definecolor{mycolor0}{RGB}{0,18,25 }
+%\definecolor{mycolor1}{RGB}{ 0, 95, 115}
+%\definecolor{mycolor2}{RGB}{ 10, 147, 150}
+%\definecolor{mycolor3}{RGB}{ 148, 210, 189}
+%\definecolor{mycolor4}{RGB}{ 233, 216, 166}
+%\definecolor{mycolor5}{RGB}{ 238, 155, 0}
+%\definecolor{mycolor6}{RGB}{ 202, 103, 2}
+%\definecolor{mycolor7}{RGB}{ 187, 62, 3}
+%\definecolor{mycolor8}{RGB}{ 174, 32, 18}
+%\definecolor{mycolor9}{RGB}{ 155, 34, 38}
+
+% https://coolors.co/palette/053c5e-1d3958-353652-4c334d-643047-7c2e41-942b3b-ab2836-c32530-db222a
+%\definecolor{mycolor0}{RGB}{5, 60, 94}
+%\definecolor{mycolor1}{RGB}{29, 57, 88}
+%\definecolor{mycolor2}{RGB}{53, 54, 82}
+%\definecolor{mycolor3}{RGB}{76, 51, 77}
+%\definecolor{mycolor4}{RGB}{100, 48, 71}
+%\definecolor{mycolor5}{RGB}{124, 46, 65}
+%\definecolor{mycolor6}{RGB}{148, 43, 59}
+%\definecolor{mycolor7}{RGB}{171, 40, 54}
+%\definecolor{mycolor8}{RGB}{195, 37, 48}
+%\definecolor{mycolor9}{RGB}{219, 34, 42}
+
+% https://coolors.co/palette/00111c-001523-001a2c-002137-00253e-002945-002e4e-003356-003a61-00406c
+\definecolor{mycolor0}{RGB}{0, 17, 28}
+\definecolor{mycolor1}{RGB}{0, 21, 35}
+\definecolor{mycolor2}{RGB}{0, 26, 44}
+\definecolor{mycolor3}{RGB}{0, 33, 55}
+\definecolor{mycolor4}{RGB}{0, 37, 62}
+\definecolor{mycolor5}{RGB}{0, 41, 69}
+\definecolor{mycolor6}{RGB}{0, 46, 78}
+\definecolor{mycolor7}{RGB}{0, 51, 86}
+\definecolor{mycolor8}{RGB}{0, 58, 97}
+\definecolor{mycolor9}{RGB}{0, 64, 108}
+
+\colorlet{ColorVariable0}{mycolor0}
 \colorlet{ColorVariable1}{mycolor1}
 \colorlet{ColorVariable2}{mycolor2}
 \colorlet{ColorVariable3}{mycolor3}
 \colorlet{ColorVariable4}{mycolor4}
 \colorlet{ColorVariable5}{mycolor5}
+\colorlet{ColorVariable6}{mycolor6}
+\colorlet{ColorVariable7}{mycolor7}
+\colorlet{ColorVariable8}{mycolor8}
+\colorlet{ColorVariable9}{mycolor9}
+
+
+
+
+\titleformat{\chapter}%
+{\huge\rmfamily\itshape\color{ColorVariable0}}% format applied to label+text
+{\llap{\colorbox{ColorVariable0}{\parbox{1.5cm}{\hfill\itshape\huge\color{white}\thechapter}}}}% label
+{2pt}% horizontal separation between label and title body
+{}% before the title body
+[]% after the title body
+
+\everymath{\color{mycolor0}}
+%\everydisplay{\color{red}}
 
 \hypersetup{
 	pdftitle={Precálculo},
 	pdfauthor={Juliho Castillo Colmenares},
 	colorlinks=true,
-	linkcolor=ColorVariable5,
-	anchorcolor=ColorVariable5,
-	runcolor=ColorVariable5,
-	filecolor=ColorVariable5,
-	citecolor = ColorVariable5,
-	urlcolor=ColorVariable5,
+	linkcolor=ColorVariable9,
+	anchorcolor=ColorVariable9,
+	runcolor=ColorVariable9,
+	filecolor=ColorVariable9,
+	citecolor = ColorVariable9,
+	urlcolor=ColorVariable9,
 	frenchlinks=true
 }
 
-\titleformat{\chapter}%
-{\huge\rmfamily\itshape\color{ColorVariable1}}% format applied to label+text
-{\llap{\colorbox{ColorVariable1}{\parbox{1.5cm}{\hfill\itshape\huge\color{white}\thechapter}}}}% label
-{2pt}% horizontal separation between label and title body
-{}% before the title body
-[]% after the title body
 
 % section format
 \titleformat{\section}%
@@ -45,105 +93,105 @@
 
 % subsection format
 \titleformat{\subsection}%
-{\normalfont\large\itshape\color{ColorVariable1}}% format applied to label+text
-{\llap{\colorbox{ColorVariable1}{\parbox{1.5cm}{\hfill\color{white}\thesubsection}}}}% label
+{\normalfont\large\itshape\color{ColorVariable8}}% format applied to label+text
+{\llap{\colorbox{ColorVariable8}{\parbox{1.5cm}{\hfill\color{white}\thesubsection}}}}% label
 {1em}% horizontal separation between label and title body
 {}% before the title body
 []% after the title body
 
 \declaretheoremstyle[
-headfont=\color{ColorVariable2}\normalfont\bfseries,
-bodyfont=\color{ColorVariable4}\normalfont\itshape,
-]{colored-1}
+headfont=\color{ColorVariable7}\normalfont\bfseries,
+bodyfont=\color{ColorVariable2}\normalfont\itshape,
+]{colored-27}
 
 \declaretheoremstyle[
-headfont=\color{ColorVariable3}\normalfont\bfseries,
-bodyfont=\color{ColorVariable5}\normalfont\itshape,
-]{colored-2}
+headfont=\color{ColorVariable6}\normalfont\bfseries,
+bodyfont=\color{ColorVariable3}\normalfont\itshape,
+]{colored-36}
+
+
+\declaretheoremstyle[
+headfont=\color{ColorVariable6}\normalfont\bfseries,
+bodyfont=\color{ColorVariable3}\normalfont\itshape,
+]{colored-45}
 
 \declaretheorem[
-style=colored-1,
+style=colored-27,
 name=Problema,
 numberwithin=chapter,
 ]{problema}
 
 \declaretheorem[
-style=colored-1,
+style=colored-27,
 name=Problema Resuelto,
 numberwithin=chapter,
 ]{resuelto}
 
 \declaretheorem[
-style=colored-1,
+style=colored-27,
 name=Solución,
 numberwithin=chapter,
 ]{solucion}
 
 \declaretheorem[
-style=colored-1 ,
+style=colored-27,
 name= Ejemplo,
 numberwithin=chapter
 ]{ejemplo}
 
 \declaretheorem[
-style=colored-2,
+style=colored-36,
 name= Definición,
 numberwithin=chapter,
 ]{definicion}
 
-\newenvironment{algoritmo}[1]{
-	\medskip
-	%\begin{framed}
-	\bgroup
-	\color{ColorVariable2}
-	{\textbf{Algoritmo. (#1)}}
-	\ttfamily
-}{
-	\egroup
-	%\end{framed}
-	\medskip
-}
+\declaretheorem[
+style=colored-36,
+name= Algoritmo,
+numberwithin=chapter,
+]{algoritmo}
+
 
 \declaretheorem[
-style=colored-2,
+style=colored-36,
 name=Teorema,
 numberwithin=chapter,
 ]{teorema}
 
 \declaretheorem[
-style=colored-2,
+style=colored-36,
 name=Proposición,
 numberwithin=chapter,
 ]{proposicion}
 
 \declaretheorem[
-style=colored-1,
-name=Observación,
-numberwithin=chapter,
-]{observacion}
-
-\declaretheorem[
-style=colored-1,
+style=colored-36,
 name=Corolario,
 numberwithin=chapter,
 ]{corolario}
 
 \declaretheorem[
-style=colored-1,
-name=Sugerencia,
-numberwithin=chapter,
-]{sugerencia}
-
-\declaretheorem[
-style=colored-1,
+style=colored-36,
 name=Axioma,
 numberwithin=chapter,
 ]{axioma}
 
 \declaretheorem[
-style=colored-1,
+style=colored-36,
 name=Tabla de Verdad,
 numberwithin=chapter,
 ]{tdv}
+
+\declaretheorem[
+style=colored-45,
+name=Observación,
+numberwithin=chapter,
+]{observacion}
+
+\declaretheorem[
+style=colored-45,
+name=Sugerencia,
+numberwithin=chapter,
+]{sugerencia}
 
 

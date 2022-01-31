@@ -32,7 +32,7 @@ Primero, introducimos la matriz de manera habitual.
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -54,14 +54,14 @@ A: matrix(
 \parbox{8ex}{\color{labelcolor}(\%o1) }
 \begin{pmatrix}3 & 1 & -1\cr 2 & 2 & -1\cr 2 & 2 & 0\end{pmatrix}
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 Y posteriormente usamos el comando \texttt{nondiagonalizable}, siempre calculando primero los vectores propios de la
 matriz.
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -79,10 +79,10 @@ eigenvectors(A);
 \parbox{8ex}{\color{labelcolor}(\%o4) }
 [[[1,2],[1,2]],[[[1,0,2]],[[1,1,2]]]]
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -100,7 +100,7 @@ nondiagonalizable;
 \parbox{8ex}{\color{labelcolor}(\%o5) }
 true
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 Si la respuesta es \texttt{true}, esto quiere decir que en efecto, tal matriz no es diagonalizable. En otro caso,
 obtenendremo \texttt{false}.
@@ -172,7 +172,7 @@ eficientes los cálculos, usaremos \texttt{WxMaxima}.
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -194,13 +194,13 @@ A: matrix(
 \parbox{8ex}{\color{labelcolor}(\%o1) }
 \begin{pmatrix}3 & 2 & 4\cr 2 & 0 & 2\cr 4 & 2 & 3\end{pmatrix}
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 Después, encontramos los valores propios:
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -218,7 +218,7 @@ eigenvectors(A);
 \parbox{8ex}{\color{labelcolor}(\%o2) }
 [[[8,-1],[1,2]],[[[1,\frac{1}{2},1]],[[1,0,-1],[0,1,-\frac{1}{2}]]]]
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 La salida de la última instrucción quiere decir que $\lam=8$ es un vector propio, de multiplicidad 1 con vector propio$$
 v_{1}=\bm{1 \\ 1/2 \\ 1},
@@ -239,7 +239,7 @@ Introducimos esta matriz en \texttt{WxMaxima} y calculamos su inversa, a la que 
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -261,11 +261,11 @@ P: matrix(
 \parbox{8ex}{\color{labelcolor}(\%o5) }
 \begin{pmatrix}1 & 1 & 0\cr \frac{1}{2} & 0 & 1\cr 1 & -1 & -\frac{1}{2}\end{pmatrix}
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -284,12 +284,12 @@ Q:invert(P);
 \begin{pmatrix}\frac{4}{9} & \frac{2}{9} & \frac{4}{9}\cr \frac{5}{9} & -\frac{2}{9} & -\frac{4}{9}\cr -\frac{2}{9} &
 \frac{8}{9} & -\frac{2}{9}\end{pmatrix}
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 Finalmente, realizamos el calculo $P^{-1}AP$
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -307,7 +307,7 @@ Q.A.P;
 \parbox{8ex}{\color{labelcolor}(\%o7) }
 \begin{pmatrix}8 & 0 & 0\cr 0 & -1 & 0\cr 0 & 0 & -1\end{pmatrix}
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 para verificar que, en efecto, la matriz resultante es diagonal, y en su diagonal estan ordenados los valores propios
 de $A.$

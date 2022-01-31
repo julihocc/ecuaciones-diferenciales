@@ -2,23 +2,20 @@
 
 \subsection{Conceptos básicos}
 
-\begin{itemize}
+\begin{definicion}
+	\begin{itemize}
 	\item 	Una \emph{ecuación diferencial} es una ecuación que involucra derivadas o diferenciales de una o varias variables.
 	\item Si la ecuación sólo involucra derivadas respecto a una única variable independiente, diremos que es \emph{ordinaria}.  En otro caso, que es \emph{parcial}.
 	\item Si la ecuación involucra derivadas de orden $n$, pero no de orden más alto, diremos que la propia ecuación es de \emph{orden $n$.}
 \end{itemize}
-
-\subsection{Clasificación de ecuaciones diferenciales}
+\end{definicion}
 
 \begin{resuelto}
 	Clasifica cada una de las siguientes ecuaciones diferenciales enunciando su orden; sus variables dependientes e independientes; y si es ordinaria o parcial:
-\end{resuelto}
 
-%%%%%%%
-
-\begin{align*}
+\begin{align}
 	x^2y''+xy'+\left(x^2-n^2\right)y = 0
-\end{align*}
+\end{align}
 
 \begin{proof}[Solución]
 	\begin{enumerate}[(i)]
@@ -29,11 +26,11 @@
 	\end{enumerate}
 \end{proof}
 
-%%%%%%%
 
-\begin{align*}
+
+\begin{align}
 	\dfrac{dx}{dy}= x^{2}+y^{2}
-\end{align*}
+\end{align}
 \begin{proof}[Solución]
 	\begin{enumerate}[(i)]
 		\item Orden 1;
@@ -43,11 +40,11 @@
 	\end{enumerate}
 \end{proof}
 
-%%%%%%%
 
-\begin{align*}
+
+\begin{align}
 	\dfrac{dy}{dx}= \dfrac{1}{x^{2}+y^{2}}
-\end{align*}
+\end{align}
 \begin{proof}[Solución]
 	\begin{enumerate}[(i)]
 		\item Orden 1;
@@ -57,11 +54,11 @@
 	\end{enumerate}
 \end{proof}
 
-%%%%%%%
 
-\begin{align*}
+
+\begin{align}
 	\left(\dfrac{d^{2}u}{dt^{2}}\right)^{3}+u^{4}=1
-\end{align*}
+\end{align}
 \begin{proof}[Solución]
 	\begin{enumerate}[(i)]
 		\item Orden 2;
@@ -71,12 +68,12 @@
 	\end{enumerate}
 \end{proof}
 
-%%%%%%%
 
 
-\begin{align*}
+
+\begin{align}
 	\dfrac{\partial^{2}Y}{\partial t^{2}} = 2\dfrac{\partial^{2}Y}{\partial x^{2}}
-\end{align*}
+\end{align}
 \begin{proof}[Solución]
 	\begin{enumerate}[(i)]
 		\item Orden 2;
@@ -86,12 +83,12 @@
 	\end{enumerate}
 \end{proof}
 
-%%%%%%%
 
 
-\begin{align*}
+
+\begin{align}
 	\left(x^{2}+2y^{2}\right)dx +\left(3x^{3}-4y^{2}\right)dy=0
-\end{align*}
+\end{align}
 \begin{proof}[Solución]
 	\begin{enumerate}[(i)]
 		\item Orden 1;
@@ -101,39 +98,45 @@
 	\end{enumerate}
 \end{proof}
 
-\subsection{Constantes arbitrarias}
 
-	Una constante arbitraria es un valor que es independiente de las variables involucradas en la ecuación.
+\end{resuelto}
 
-	Generalmente las denotaremos con las primeras letras del alfabeto:
-	\begin{align*}
+
+	\begin{definicion}
+		Una constante arbitraria es un valor que es independiente de las variables involucradas en la ecuación.
+	\end{definicion}
+
+	\begin{observacion}
+		Generalmente las denotaremos con las primeras letras del alfabeto:
+	\begin{align}
 		A,B,C,c_{1},c_{2},...
-	\end{align*}
+	\end{align}
+	\end{observacion}
 
-%%%%%%%%%%%
+%%%%
 
 	\begin{ejemplo}
 		En la ecuación
-		\begin{align*}
+		\begin{align}
 		y = x^{2}+c_{1}x+c_{2}
-		\end{align*}
+		\end{align}
 		los símbolos $ c_{1}, c_{2} $ representan constantes arbitrarias.
 
 	\end{ejemplo}
 
-%%%%%%%
+
 
 	\begin{ejemplo}
 		La relación $ y = Ae^{-4x+B} $ se puede reescribir como $ y = Ce^{-4x} $.  Por lo que sólo involucra una constante arbitraria.
 	\end{ejemplo}
 
-%%%%%%%
+
 \begin{observacion}
 
 	Siempre reduciremos las ecuaciones al número mínimo de constantes arbitrarias, a las que llamaremos \emph{esenciales}.
 
 \end{observacion}
-%%%%%%%%%%
+%%%
 
 
 \subsection{Soluciones de ecuaciones diferenciales}
@@ -146,7 +149,7 @@
 	\item 	Una \emph{solución singular} es una aquella que no se puede obtener de la solución general sólo especificando valores para las constantes arbitrarias.
 \end{itemize}
 
-%%%%%%%
+
 
 	\begin{resuelto}
 		\label{exmp 02:06}
@@ -171,23 +174,23 @@
 	De manera reciproca, una relación con $ n $ constantes arbitrarias (también llamada \emph{primitiva}) tiene asociada una ecuación diferencial de orden $n$ (de la cual es solución general), llamada la \emph{ecuación diferencial de la familia}.
 
 \end{definicion}
-%%%%%%%
+
 \subsection{Ejemplos de soluciones}
 
 
 Para cada una de las siguientes ecuaciones, verifica si la relación indicada es solución; y en ese caso, determina si es general.
 
 
-%%%%%%%
 
-\begin{align*}
+
+\begin{align}
 	\begin{cases}
 		y'-x+y=0\\
 		y = Ce^{-x}+x-1
 	\end{cases}
-\end{align*}
+\end{align}
 
-%%%%%%%
+
 
 \begin{proof}[Solución]
 	\begin{enumerate}[(i)]
@@ -198,43 +201,43 @@ Para cada una de las siguientes ecuaciones, verifica si la relación indicada es
 	\end{enumerate}
 \end{proof}
 
-%%%%%%%
 
-\begin{align*}
+
+\begin{align}
 	\begin{cases}
 		\dfrac{dy}{dx}=\dfrac{2xy}{3y^{2}-x^{2}}\\
 		x^{2}y-y^{3}=c
 	\end{cases}
-\end{align*}
+\end{align}
 
-%%%%%%%
+
 
 \begin{proof}[Solución]
 	\begin{enumerate}[(i)]
 		\item Derivando de forma implícita obtenemos
-		\begin{align*}
+		\begin{align}
 			x^{2}y'+2xy-3y^{2}y'=0
-		\end{align*}
+		\end{align}
 		\item Despejando $y'$ obtenemos
-		\begin{align*}
+		\begin{align}
 			y'=\dfrac{2xy}{3y^{2}-x^{2}}
-		\end{align*}
+		\end{align}
 		\item Como $C$ es el único parámetro, $y$ es una solución general.
 	\end{enumerate}
 \end{proof}
 
-%%%%%%%
 
-\begin{align*}
+
+\begin{align}
 	\label{problem 2.2:c}
 	\begin{cases}
 		\dfrac{d^{2}I}{dt^{2}}+2\dfrac{dI}{dt}-3I =
 		2\cos(t)-4\sin(t)\\
 		I = c_{1}e^{t}+c_{2}e^{-3t}+\sin(t)
 	\end{cases}
-\end{align*}
+\end{align}
 
-%%%%%%%
+
 
 \begin{proof}[Solución]
 	\begin{enumerate}[(i)]
@@ -245,57 +248,57 @@ Para cada una de las siguientes ecuaciones, verifica si la relación indicada es
 		c_{1}e^{t}+9c_{2}e^{-3t}-\sin(t) $
 
 		\item
-		\begin{align*}
+		\begin{align}
 			\left(c_{1}e^{t}+9c_{2}e^{-3t}-\sin(t)\right)\\
 			+2\left(c_{1}e^{t}-3c_{2}e^{-3t}+\cos(t)\right)\\
 			-3\left(c_{1}e^{t}+c_{2}e^{-3t}+\sin(t)\right)\\
 			=   2\cos(t)-4\sin(t)
-		\end{align*}
+		\end{align}
 
 		\item Como $ c_{1},c_{2} $ son parámetros, entonces $I$ es una solución general.
 	\end{enumerate}
 \end{proof}
 
-%%%%%%%
 
-\begin{align*}
+
+\begin{align}
 	\begin{cases}
 		x^{3}\left(\dfrac{d^{2}v}{dx^{2}}\right)^{2} = 2v\dfrac{dv}{dx} \\
 		v = cx^{2}
 	\end{cases}
-\end{align*}
+\end{align}
 
-%%%%%%%
+
 
 \begin{proof}[Solución]
 	\begin{enumerate}[(i)]
 		\item $ \dfrac{dv}{dx}=2cx $
 		\item $ \dfrac{d^{2}v}{dx^{2}}=2c $
 		\item Sustituimos en el lado izquierdo
-		\begin{align*}
+		\begin{align}
 			x^{3}\left(2c\right)^{2}=4c^{2}x^{3}
-		\end{align*}
+		\end{align}
 		\item Sustituimos en el lado derecho
-		\begin{align*}
+		\begin{align}
 			2\left(cx^{2}\right)\left(2cx\right)= 4c^{2}x^{3}
-		\end{align*}
+		\end{align}
 		\item Entonces $v$ es solución, pero como la ecuación es de grado 2 y $c$ es el único parámetro, no es general.
 	\end{enumerate}
 \end{proof}
 
-%%%%%%%
+
 
 % PROBLEMA RESUELTO 2.3
 \begin{resuelto}
 	Determine la solución particular de la ecuación diferencia del problema \ref{problem 2.2:c}, tal que satisface las condiciones
-	\begin{align*}
+	\begin{align}
 		I(0)&=2\\
 		I'(0)&=-5
-	\end{align*}
+	\end{align}
 \end{resuelto}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{proof}[Solución]
 	\begin{enumerate}[(i)]
@@ -310,46 +313,46 @@ Para cada una de las siguientes ecuaciones, verifica si la relación indicada es
 	\end{enumerate}
 \end{proof}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 
 % problema resuelto 2.4
 \begin{resuelto}
 	Mostrar que la solución de problema de valor inicial
-	\begin{align*}
+	\begin{align}
 		\begin{cases}
 			Q''(t)+4Q'(t)+20Q(t)=16e^{-2t} & t\geq 0 \\
 			Q(0) = 2, Q'(0)=0 &
 		\end{cases}
-	\end{align*}
+	\end{align}
 	is
-	\begin{align*}
+	\begin{align}
 		Q(t) = e^{-2t}\left(
 		1+\sin(4t)+\cos(4t)
 		\right)
-	\end{align*}
+	\end{align}
 \end{resuelto}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {Solución}
-\begin{align*}
+\begin{align}
 	Q'(t) &= e^{-2t}\left( 4\cos(4t)-4\sin(4t) \right)
 	-2e^{-2t}\left( 1+\sin(4t)+\cos(4t) \right)\\
 	&=e^{-2t}\left( 2\cos(4t)-6\sin(4t)-2 \right)
-\end{align*}
+\end{align}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {Solución}
-\begin{align*}
+\begin{align}
 	Q''(t) &= e^{-2t}\left( -8\sin(4t)-24\cos(4t) \right)
 	-2e^{-2t}\left( 2\cos(4t)-6\sin(4t)-2 \right)\\
 	& = e^{-2t}\left( 4\sin(4t)-28\cos(4t)+4 \right)
-\end{align*}
+\end{align}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {Solución}
-\begin{align*}
+\begin{align}
 	Q''(t)+4Q'(t)+20Q(t) \\
 	=
 	e^{-2t}\left( 4\sin(4t)-28\cos(4t)+4 \right) \\
@@ -358,21 +361,21 @@ Para cada una de las siguientes ecuaciones, verifica si la relación indicada es
 	1+\sin(4t)+\cos(4t)
 	\right) \\
 	=  16e^{-2t}
-\end{align*}
+\end{align}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 
 Determine gráficamente una relación entre la solución general
-\begin{align*}
+\begin{align}
 	y = cx-c^{2}
-\end{align*}
+\end{align}
 y la solución singular $y=\dfrac{x^{2}}{4}$ de la ecuación diferencial
-\begin{align*}
+\begin{align}
 	y = xy'-y^{2}
-\end{align*}
+\end{align}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{figure}
 	\centering
@@ -383,22 +386,22 @@ y la solución singular $y=\dfrac{x^{2}}{4}$ de la ecuación diferencial
 \end{figure}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 
 La envolvente de una familia de curvas
-\begin{align*}
+\begin{align}
 	G(x,y,c)=0,
-\end{align*}
+\end{align}
 si es que existe, puede encontrarse resolviendo simultaneamente las ecuaciones
-\begin{align*}
+\begin{align}
 	\begin{cases}
 		\partial_{c}G(x,y,c) = 0\\
 		G(x,y,c) = 0
 	\end{cases}
-\end{align*}
+\end{align}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {Solución}
 \begin{enumerate}[(i)]
 	%NUEVO ITEM
@@ -406,23 +409,23 @@ si es que existe, puede encontrarse resolviendo simultaneamente las ecuaciones
 	\partial_{c}G(x,y,c) =-x+2c$
 
 	\item Plantemos las ecuaciones
-	\begin{align*}
+	\begin{align}
 		-x+2c&=0\\
 		y-cx+c^2&=0
-	\end{align*}
+	\end{align}
 
 	\item Resolvemos las ecuaciones y obtenemos la solución paramética
-	\begin{align*}
+	\begin{align}
 		x=2c, y =c^{2}
-	\end{align*}
+	\end{align}
 
 	\item La solución se puede reescribir como
-	\begin{align*}
+	\begin{align}
 		y = \dfrac{x^2}{4}
-	\end{align*}
+	\end{align}
 \end{enumerate}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 
 %DIFFERENTIAL EQUATION OF A FAMILY OF CURVES, P. 46
 
@@ -435,7 +438,7 @@ si es que existe, puede encontrarse resolviendo simultaneamente las ecuaciones
 \end{resuelto}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {Solución: Inciso (a)}
 \begin{figure}
 	\centering
@@ -446,7 +449,7 @@ si es que existe, puede encontrarse resolviendo simultaneamente las ecuaciones
 \end{figure}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {Solución: Inciso (b)}
 \begin{enumerate}[(i)]
 	%NUEVO ITEM
@@ -456,19 +459,19 @@ si es que existe, puede encontrarse resolviendo simultaneamente las ecuaciones
 	\item $y'=\dfrac{3y}{x}$
 \end{enumerate}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{resuelto}
 
 	Encuentre una ecuación diferencial para la familia biparamétrica de cónicas
-	\begin{align*}
+	\begin{align}
 		ax^{2}+by^{2}=1
-	\end{align*}
+	\end{align}
 
 \end{resuelto}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{proof}[Solución]
 
@@ -485,7 +488,7 @@ si es que existe, puede encontrarse resolviendo simultaneamente las ecuaciones
 	\end{enumerate}
 \end{proof}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{enumerate}
 	%NUEVO ITEM
@@ -494,7 +497,7 @@ si es que existe, puede encontrarse resolviendo simultaneamente las ecuaciones
 	\item Determina la ecuación de la curva particular en el inciso (b), que pasa por el punto $\left( 1,3 \right)$
 \end{enumerate}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {Solución: Inciso (a)}
 \begin{enumerate}[(i)]
 	%NUEVO ITEM
@@ -505,7 +508,7 @@ si es que existe, puede encontrarse resolviendo simultaneamente las ecuaciones
 	\item $y=x^{3}+c$
 \end{enumerate}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {Solución: Inciso (b)}
 \begin{figure}
 	\centering
@@ -516,7 +519,7 @@ si es que existe, puede encontrarse resolviendo simultaneamente las ecuaciones
 \end{figure}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
 {Inciso (c)}
 \begin{enumerate}[(i)]
 	%NUEVO ITEM
@@ -528,20 +531,20 @@ si es que existe, puede encontrarse resolviendo simultaneamente las ecuaciones
 	\item $y=x^{3}+2$
 \end{enumerate}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{resuelto}
 	Resuelva el problema de condición inicial
-	\begin{align*}
+	\begin{align}
 		\begin{cases}
 			y''=3x-2\\
 			y(0)=2\\
 			y'(1)=-3
 		\end{cases}
-	\end{align*}
+	\end{align}
 \end{resuelto}
 
-%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{proof}[Solución]
 	\begin{enumerate}[(i)]
@@ -558,4 +561,4 @@ si es que existe, puede encontrarse resolviendo simultaneamente las ecuaciones
 	\end{enumerate}
 \end{proof}
 
-%%%%%%%%%%%%%%%%%%%%%
+

@@ -133,7 +133,7 @@ Primero, introducimos la matriz.
 
 %\begin{center}
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -155,7 +155,7 @@ matrix(
 \parbox{8ex}{\color{labelcolor}(\%o1) }
 \begin{pmatrix}3 & 1 & -1\cr 2 & 2 & -1\cr 2 & 2 & 0\end{pmatrix}
 \end{math}
-%%%%%%%%%%%%%%%
+%
 %\end{center}
 
 Posteriormente, calculamos el polinomio característico. En este caso, \texttt{WxMaxima} usará la definición $$
@@ -163,7 +163,7 @@ p(x)=\det\left( A-xI \right).
 $$
 %\begin{center}
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -181,13 +181,13 @@ charpoly(%, x), expand;
 \parbox{8ex}{\color{labelcolor}(\%o2) }
 -{x}^{3}+5\,{x}^{2}-8\,x+4
 \end{math}
-%%%%%%%%%%%%%%%
+%
 %\end{center}
 
 Finalmente, factorizamos el polinomio.
 %\begin{center}
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -205,14 +205,14 @@ factor(%o2);
 \parbox{8ex}{\color{labelcolor}(\%o8) }
 -{\left( x-2\right) }^{2}\,\left( x-1\right)
 \end{math}
-%%%%%%%%%%%%%%%
+%
 %\end{center}
 
 Otra manera, más directa, es encontrar directamenta las raices del polinomio
 %\begin{center}
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -230,14 +230,14 @@ realroots(%o2);
 \parbox{8ex}{\color{labelcolor}(\%o13) }
 [x=2,x=1]
 \end{math}
-%%%%%%%%%%%%%%%
+%
 
 %\end{center}
 
 Otra manera de obtener los valores propios es la siguiente:
 
 \noindent
-%%%%%%%%%%%%%%%
+%
 %%% INPUT:
 \begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
@@ -255,7 +255,7 @@ eigenvalues(A);
 \parbox{8ex}{\color{labelcolor}(\%o21) }
 [[1,2],[1,2]]
 \end{math}
-%%%%%%%%%%%%%%%
+%
 En este caso, el primer arreglo nos dice los valores propios, mientras que el segundo, nos dice sus
 \emph{multiplicidades algebráicas,} que es el exponente que tienen asociado en el polinomio característico.
 \end{solucion}

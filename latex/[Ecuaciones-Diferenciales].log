@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.15)  28 JAN 2022 06:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2022.1.29)  31 JAN 2022 05:25
 entering extended mode
 **./[Ecuaciones-Diferenciales].tex
 ([Ecuaciones-Diferenciales].tex
@@ -1288,20 +1288,21 @@ Package: thm-restate 2020/08/01 v0.72
 Package: thm-amsthm 2020/08/01 v0.72
 \thmt@style@headstyle=\toks53
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 29.
-Package hyperref Info: Option `frenchlinks' set `true' on input line 29.
+Package hyperref Info: Option `colorlinks' set `true' on input line 83.
+Package hyperref Info: Option `frenchlinks' set `true' on input line 83.
 \c@problema=\count361
 \c@resuelto=\count362
 \c@solucion=\count363
 \c@ejemplo=\count364
 \c@definicion=\count365
-\c@teorema=\count366
-\c@proposicion=\count367
-\c@observacion=\count368
+\c@algoritmo=\count366
+\c@teorema=\count367
+\c@proposicion=\count368
 \c@corolario=\count369
-\c@sugerencia=\count370
-\c@axioma=\count371
-\c@tdv=\count372
+\c@axioma=\count370
+\c@tdv=\count371
+\c@observacion=\count372
+\c@sugerencia=\count373
 ) (_comandos.tex) (_comandos_md.tex) (_comandos_trig.tex) (_comandos_pe.tex)
 LaTeX Font Info:    Trying to load font information for T1+qbk on input line 15
 .
@@ -1364,7 +1365,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count373
+\c@section@level=\count374
 )
 LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
@@ -1413,16 +1414,16 @@ LaTeX Info: Redefining \nameref on input line 15.
 (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count374
+\scratchcounter=\count375
 \scratchdimen=\dimen330
 \scratchbox=\box128
-\nofMPsegments=\count375
-\nofMParguments=\count376
+\nofMPsegments=\count376
+\nofMParguments=\count377
 \everyMPshowfont=\toks54
-\MPscratchCnt=\count377
+\MPscratchCnt=\count378
 \MPscratchDim=\dimen331
-\MPnumerator=\count378
-\makeMPintoPDFobject=\count379
+\MPnumerator=\count379
+\makeMPintoPDFobject=\count380
 \everyMPtoPDFconversion=\toks55
 )
 (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1437,7 +1438,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
-\c@lstlisting=\count380
+\c@lstlisting=\count381
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
 6.
  (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
@@ -1533,23 +1534,23 @@ Package pdftex.def Info: ./licencia/by.png  used on input line 21.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 54.
+(Font)              <12> on input line 52.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 54.
+(Font)              <9> on input line 52.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 54.
+(Font)              <7> on input line 52.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 54.
+(Font)              scaled to size 12.50409pt on input line 52.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 54.
+(Font)              scaled to size 9.37807pt on input line 52.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 54.
+(Font)              scaled to size 7.29405pt on input line 52.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 54.
+(Font)              scaled to size 12.50409pt on input line 52.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 54.
+(Font)              scaled to size 9.37807pt on input line 52.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 54.
+(Font)              scaled to size 7.29405pt on input line 52.
  [3
 
 ])
@@ -1571,82 +1572,83 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 15.0049pt on input line 27.
 (fundamentos_ecuaciones_diferenciales.tex
+Package hyperref Info: bookmark level for unknown definicion defaults to 0 on i
+nput line 6.
 Package hyperref Info: bookmark level for unknown resuelto defaults to 0 on inp
 ut line 14.
  [5
 
-] [6]
-Package hyperref Info: bookmark level for unknown ejemplo defaults to 0 on inpu
-t line 116.
+]
 Package hyperref Info: bookmark level for unknown observacion defaults to 0 on 
-input line 132.
-Package hyperref Info: bookmark level for unknown definicion defaults to 0 on i
-nput line 169.
+input line 110.
+ [6]
+Package hyperref Info: bookmark level for unknown ejemplo defaults to 0 on inpu
+t line 119.
  [7] [8]
 
-LaTeX Warning: Reference `problem 2.2:c' on page 9 undefined on input line 290.
+LaTeX Warning: Reference `problem 2.2:c' on page 9 undefined on input line 293.
 
 
 [9]
-Overfull \hbox (0.50955pt too wide) detected at line 347
+Overfull \hbox (0.50955pt too wide) detected at line 350
 []
  []
 
-<./edo/solved_problem_02-05.png, id=328, 424.2249pt x 279.6849pt>
+<./edo/solved_problem_02-05.png, id=353, 424.2249pt x 279.6849pt>
 File: ./edo/solved_problem_02-05.png Graphic file (type png)
 <use ./edo/solved_problem_02-05.png>
-Package pdftex.def Info: ./edo/solved_problem_02-05.png  used on input line 379
+Package pdftex.def Info: ./edo/solved_problem_02-05.png  used on input line 382
 .
 (pdftex.def)             Requested size: 431.19812pt x 284.28473pt.
 
-Overfull \hbox (119.19812pt too wide) in paragraph at lines 379--383
+Overfull \hbox (119.19812pt too wide) in paragraph at lines 382--386
  [][] 
  []
 
 [10] [11 <./edo/solved_problem_02-05.png>]
 LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 
-432.
+435.
 
 (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
-<./edo/solved_problem_02-06.png, id=349, 424.2249pt x 279.6849pt>
+<./edo/solved_problem_02-06.png, id=390, 424.2249pt x 279.6849pt>
 File: ./edo/solved_problem_02-06.png Graphic file (type png)
 <use ./edo/solved_problem_02-06.png>
-Package pdftex.def Info: ./edo/solved_problem_02-06.png  used on input line 442
+Package pdftex.def Info: ./edo/solved_problem_02-06.png  used on input line 445
 .
 (pdftex.def)             Requested size: 467.21844pt x 308.0pt.
 
-Overfull \hbox (155.21844pt too wide) in paragraph at lines 442--446
+Overfull \hbox (155.21844pt too wide) in paragraph at lines 445--449
  [][] 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 446.
+(Font)              <8> on input line 449.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 446.
+(Font)              <5> on input line 449.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 446.
+(Font)              scaled to size 8.33606pt on input line 449.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 446.
+(Font)              scaled to size 5.21004pt on input line 449.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 446.
+(Font)              scaled to size 8.33606pt on input line 449.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 446.
+(Font)              scaled to size 5.21004pt on input line 449.
 [12 <./edo/solved_problem_02-06.png>]
-<./edo/solved_problem_02-08.png, id=365, 455.301pt x 339.669pt>
+<./edo/solved_problem_02-08.png, id=407, 455.301pt x 339.669pt>
 File: ./edo/solved_problem_02-08.png Graphic file (type png)
 <use ./edo/solved_problem_02-08.png>
-Package pdftex.def Info: ./edo/solved_problem_02-08.png  used on input line 512
+Package pdftex.def Info: ./edo/solved_problem_02-08.png  used on input line 515
 .
 (pdftex.def)             Requested size: 495.44151pt x 369.60376pt.
 
-Overfull \hbox (183.44151pt too wide) in paragraph at lines 512--516
+Overfull \hbox (183.44151pt too wide) in paragraph at lines 515--519
  [][] 
  []
 
 [13] [14 <./edo/solved_problem_02-08.png>]) (edos_primer_orden.tex [15]
-<./edo/factores_integrantes_usuales.png, id=406, 515.67656pt x 468.24937pt>
+<./edo/factores_integrantes_usuales.png, id=452, 515.67656pt x 468.24937pt>
 File: ./edo/factores_integrantes_usuales.png Graphic file (type png)
 <use ./edo/factores_integrantes_usuales.png>
 Package pdftex.def Info: ./edo/factores_integrantes_usuales.png  used on input 
@@ -1661,13 +1663,13 @@ Overfull \hbox (14.03946pt too wide) in paragraph at lines 8--8
  []
 
 [20]
-<./edo/img020501.png, id=462, 447.17062pt x 424.58624pt>
+<./edo/img020501.png, id=508, 447.17062pt x 424.58624pt>
 File: ./edo/img020501.png Graphic file (type png)
 <use ./edo/img020501.png>
 Package pdftex.def Info: ./edo/img020501.png  used on input line 77.
 (pdftex.def)             Requested size: 209.76082pt x 199.16928pt.
  [21]
-<./edo/img020506.png, id=479, 340.27126pt x 399.74344pt>
+<./edo/img020506.png, id=525, 340.27126pt x 399.74344pt>
 File: ./edo/img020506.png Graphic file (type png)
 <use ./edo/img020506.png>
 Package pdftex.def Info: ./edo/img020506.png  used on input line 120.
@@ -1677,18 +1679,18 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
  (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [22 <./edo/img020501.png>]
-<./edo/img020502.png, id=489, 593.96906pt x 402.75468pt>
+<./edo/img020502.png, id=535, 593.96906pt x 402.75468pt>
 File: ./edo/img020502.png Graphic file (type png)
 <use ./edo/img020502.png>
 Package pdftex.def Info: ./edo/img020502.png  used on input line 191.
 (pdftex.def)             Requested size: 209.80463pt x 142.26378pt.
-<./edo/img020504.png, id=490, 565.8741pt x 422.7795pt>
+<./edo/img020504.png, id=536, 565.8741pt x 422.7795pt>
 File: ./edo/img020504.png Graphic file (type png)
 <use ./edo/img020504.png>
 Package pdftex.def Info: ./edo/img020504.png  used on input line 208.
 (pdftex.def)             Requested size: 190.41733pt x 142.26378pt.
  [23 <./edo/img020506.png>]
-<./edo/img020503.png, id=503, 562.35094pt x 383.18156pt>
+<./edo/img020503.png, id=549, 562.35094pt x 383.18156pt>
 File: ./edo/img020503.png Graphic file (type png)
 <use ./edo/img020503.png>
 Package pdftex.def Info: ./edo/img020503.png  used on input line 228.
@@ -1699,7 +1701,7 @@ Package hyperref Info: bookmark level for unknown problema defaults to 0 on inp
 ut line 8.
 
 [25 <./edo/img020503.png>]
-<./edo/img020505.png, id=527, 565.8741pt x 422.7795pt>
+<./edo/img020505.png, id=573, 565.8741pt x 422.7795pt>
 File: ./edo/img020505.png Graphic file (type png)
 <use ./edo/img020505.png>
 Package pdftex.def Info: ./edo/img020505.png  used on input line 111.
@@ -1731,17 +1733,17 @@ Underfull \vbox (badness 5652) has occurred while \output is active []
  [46]
 [47]
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 165--189
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 192--212
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 228--248
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 [48]) [49] [50
@@ -1750,27 +1752,28 @@ $[]$ $[]$
 Cap\'{\i }tulo 3.
 (valores_propios.tex [51] [52]
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 135--160
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 163--186
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (240.76971pt too wide) in paragraph at lines 187--210
-[]\T1/qbk/m/it/10 Finalmente, fac-to-ri-za-mos el po-li-no-mio. $[]$ $[]$ 
+[]\T1/qbk/m/it/10 Finalmente, fac-to-ri-za-mos el po-li-no-mio. $[][]$[] $[][]$
+[] 
  []
 
 
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 214--234
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 [53]
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 239--261
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 [54]) (vectores_propios.tex [55]
@@ -1781,27 +1784,27 @@ mtt/m/n/10 WxMaxima\T1/qbk/m/n/10 .
 
 
 Overfull \hbox (42.00005pt too wide) in paragraph at lines 64--88
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (42.00005pt too wide) in paragraph at lines 92--112
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 [56]) (diagonalizacion.tex
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 34--58
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 63--83
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 [57]
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 84--104
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
@@ -1809,27 +1812,27 @@ LaTeX Warning: Reference `fig:cd' on page 58 undefined on input line 147.
 
 [58]
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 174--198
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 202--222
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 [59]
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 241--265
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 267--288
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 291--311
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 ) [60]
@@ -1844,22 +1847,22 @@ t line 19.
 
 ] [62]
 Overfull \hbox (5.8893pt too wide) in paragraph at lines 169--170
-[]\T1/qbk/m/it/10 Encuentre el wrons-kiano de $[] \OT1/lmr/m/n/10 .$  
+[]\T1/qbk/m/it/10 Encuentre el wrons-kiano de $[][] \OT1/lmr/m/n/10 .$[]  
  []
 
 
 Overfull \hbox (42.86784pt too wide) in paragraph at lines 183--184
-[]\T1/qbk/m/it/10 Encuentre el wrons-kiano de $[] \OT1/lmr/m/n/10 .$  
+[]\T1/qbk/m/it/10 Encuentre el wrons-kiano de $[][] \OT1/lmr/m/n/10 .$[]  
  []
 
 [63]
 Overfull \hbox (11.04024pt too wide) in paragraph at lines 196--197
-[]\T1/qbk/m/it/10 Encuentre el wrons-kiano de $[] \OT1/lmr/m/n/10 .$  
+[]\T1/qbk/m/it/10 Encuentre el wrons-kiano de $[][] \OT1/lmr/m/n/10 .$[]  
  []
 
 
 Overfull \hbox (55.70044pt too wide) in paragraph at lines 209--210
-[]\T1/qbk/m/it/10 Encuentre el wrons-kiano de $[] \OT1/lmr/m/n/10 .$  
+[]\T1/qbk/m/it/10 Encuentre el wrons-kiano de $[][] \OT1/lmr/m/n/10 .$[]  
  []
 
 ) (edos_segundo_orden.tex
@@ -1870,8 +1873,8 @@ Overfull \hbox (10.61942pt too wide) in paragraph at lines 1--1
 
 [64] [65]) (ecuaciones_orden_superior.tex
 Overfull \hbox (42.32655pt too wide) in paragraph at lines 1--1
-|[]\T1/qbk/m/it/12 Ecuaciones Di-fe-ren-cia-les Li-nea-les Ho-mo-gé-neas de $\O
-ML/lmm/m/it/12 n\OMS/lmsy/m/n/12  $\T1/qbk/m/it/12 ésimo
+|[]\T1/qbk/m/it/12 Ecuaciones Di-fe-ren-cia-les Li-nea-les Ho-mo-gé-neas de $[]
+\OML/lmm/m/it/12 n\OMS/lmsy/m/n/12  $[]\T1/qbk/m/it/12 ésimo
  []
 
 
@@ -1884,23 +1887,23 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [66]) (coeficientes_indeterminados.tex [67] [68]
 Overfull \hbox (4.8465pt too wide) in paragraph at lines 167--168
-[]\T1/qbk/m/n/10 Aun más, si $\OML/lmm/m/it/10 \OT1/zplm/m/n/10 (\OML/lmm/m/it
-/10 x\OT1/zplm/m/n/10 ) = \OML/lmm/m/it/10 ke[] []\OT1/zplm/m/n/10 (\OML/lmm/m/
-it/10 x\OT1/zplm/m/n/10 )\OML/lmm/m/it/10 p[]\OT1/zplm/m/n/10 (\OML/lmm/m/it/1
-0 x\OT1/zplm/m/n/10 )$ \T1/qbk/m/n/10 o $\OML/lmm/m/it/10 \OT1/zplm/m/n/10 (\O
-ML/lmm/m/it/10 x\OT1/zplm/m/n/10 ) = \OML/lmm/m/it/10 ke[] []\OT1/zplm/m/n/10 (
-\OML/lmm/m/it/10 x\OT1/zplm/m/n/10 )\OML/lmm/m/it/10 p[]\OT1/zplm/m/n/10 (\OML
-/lmm/m/it/10 x\OT1/zplm/m/n/10 )\OT1/lmr/m/n/10 ,$ 
+[]\T1/qbk/m/n/10 Aun más, si $[]\OML/lmm/m/it/10 \OT1/zplm/m/n/10 (\OML/lmm/m/
+it/10 x\OT1/zplm/m/n/10 ) = \OML/lmm/m/it/10 ke[] []\OT1/zplm/m/n/10 (\OML/lmm/
+m/it/10 x\OT1/zplm/m/n/10 )\OML/lmm/m/it/10 p[]\OT1/zplm/m/n/10 (\OML/lmm/m/it
+/10 x\OT1/zplm/m/n/10 )$[] \T1/qbk/m/n/10 o $[]\OML/lmm/m/it/10 \OT1/zplm/m/n/
+10 (\OML/lmm/m/it/10 x\OT1/zplm/m/n/10 ) = \OML/lmm/m/it/10 ke[] []\OT1/zplm/m/
+n/10 (\OML/lmm/m/it/10 x\OT1/zplm/m/n/10 )\OML/lmm/m/it/10 p[]\OT1/zplm/m/n/10
+ (\OML/lmm/m/it/10 x\OT1/zplm/m/n/10 )\OT1/lmr/m/n/10 ,$[] 
  []
 
 [69]) (aplicaciones_segundo_orden.tex
-<./edo/img030601.png, id=1136, 724.20563pt x 393.72093pt>
+<./edo/img030601.png, id=1182, 724.20563pt x 393.72093pt>
 File: ./edo/img030601.png Graphic file (type png)
 <use ./edo/img030601.png>
 Package pdftex.def Info: ./edo/img030601.png  used on input line 9.
 (pdftex.def)             Requested size: 261.67522pt x 142.26378pt.
  [70]
-<./edo/circuitos_electricos.png, id=1148, 426.99525pt x 284.262pt>
+<./edo/circuitos_electricos.png, id=1194, 426.99525pt x 284.262pt>
 File: ./edo/circuitos_electricos.png Graphic file (type png)
 <use ./edo/circuitos_electricos.png>
 Package pdftex.def Info: ./edo/circuitos_electricos.png  used on input line 54.
@@ -1913,7 +1916,7 @@ Cap\'{\i }tulo 5.
 (transformada_laplace.tex [75
 
 ]
-<./edo/img0401.png, id=1205, 625.58719pt x 402.75468pt>
+<./edo/img0401.png, id=1251, 625.58719pt x 402.75468pt>
 File: ./edo/img0401.png Graphic file (type png)
 <use ./edo/img0401.png>
 Package pdftex.def Info: ./edo/img0401.png  used on input line 75.
@@ -1921,12 +1924,12 @@ Package pdftex.def Info: ./edo/img0401.png  used on input line 75.
  [76 <./edo/img0401.png>])
 (transformada_inversa_laplace.tex [77]) (transformada_laplace_derivadas.tex
 [78] [79]) (transformada_funciones_discontinuas.tex
-<./edo/img0402.png, id=1276, 525.46312pt x 427.5975pt>
+<./edo/img0402.png, id=1322, 525.46312pt x 427.5975pt>
 File: ./edo/img0402.png Graphic file (type png)
 <use ./edo/img0402.png>
 Package pdftex.def Info: ./edo/img0402.png  used on input line 71.
 (pdftex.def)             Requested size: 174.82253pt x 142.26378pt.
-<./edo/img0403.png, id=1277, 938.00438pt x 294.34969pt>
+<./edo/img0403.png, id=1323, 938.00438pt x 294.34969pt>
 File: ./edo/img0403.png Graphic file (type png)
 <use ./edo/img0403.png>
 Package pdftex.def Info: ./edo/img0403.png  used on input line 104.
@@ -1942,52 +1945,52 @@ Overfull \hbox (11.7807pt too wide) in paragraph at lines 63--63
 
 ] [84] [85] [86]
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 182--205
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 207--227
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 243--266
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 [87]
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 268--288
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 298--318
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 320--340
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 353--376
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 378--398
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 [88]
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 417--440
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
 Overfull \hbox (42.92004pt too wide) in paragraph at lines 445--465
-$[]$ $[]$ 
+$[][]$[] $[][]$[] 
  []
 
 
@@ -2023,10 +2026,10 @@ ged.
 (rerunfilecheck)             Checksum: 771D59C0E3E767D8420B4175F2F11C9C;6761.
  ) 
 Here is how much of TeX's memory you used:
- 31269 strings out of 478927
- 568505 string characters out of 2852534
- 881560 words of memory out of 3000000
- 47479 multiletter control sequences out of 15000+600000
+ 31342 strings out of 478927
+ 569325 string characters out of 2852535
+ 884283 words of memory out of 3000000
+ 47506 multiletter control sequences out of 15000+600000
  563793 words of font info for 179 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,18n,97p,598b,799s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2065,9 +2068,9 @@ fb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qb
 kr.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyr
 e/qbkri.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palat
 ino/uplr8a.pfb>
-Output written on [Ecuaciones-Diferenciales].pdf (93 pages, 1662148 bytes).
+Output written on [Ecuaciones-Diferenciales].pdf (93 pages, 1675018 bytes).
 PDF statistics:
- 1668 PDF objects out of 1728 (max. 8388607)
- 825 named destinations out of 1000 (max. 500000)
+ 1725 PDF objects out of 1728 (max. 8388607)
+ 871 named destinations out of 1000 (max. 500000)
  2917 words of extra memory for PDF output out of 10000 (max. 10000000)
 
