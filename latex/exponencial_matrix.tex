@@ -131,23 +131,23 @@ o de manera más generalizar $$
 $$
 
 Entonces
-\begin{align*}
+\begin{align}
 e^{tA}&= \sum_{k\geq 0} \dfrac{(tA)^{k}}{k!} \\
 &= \sum_{k\geq 0} \dfrac{\left( P (tD^{n}) P^{-1} \right)^{k}}{k!} \\
 &= P \left( \sum_{k\geq 0} \dfrac{\left( tD^{n} \right)^{k}}{k!} \right) P^{-1} \\
 &= P e^{tD} P^{-1}.
-\end{align*}
+\end{align}
 
 Basta entonces encontrar $e^{tD}.$ Pero como vimos, calcular las potencias de $D$ no es dificil.
 
-\begin{align*}
+\begin{align}
  e^{tD} &= \sum_{k\geq 0} \frac{1}{k!} (tD)^{k} \\
 &=\sum_{k\geq 0} \frac{1}{k!}
 \bm{(t\lam_{1})^{k} & 0 & & \\ 0 & (t\lam_{2})^{k} & & \\ & & \ddots & \\ &&&(t\lam_{n})^{k}} \\
 &= \bm{\sum_{k\geq 0} \frac{1}{k!}(t\lam_{1})^{k} & 0 & & \\ 0 & \sum_{k\geq 0} \frac{1}{k!}(t\lam_{2})^{k} & & \\ & &
 \ddots & \\ &&&\sum_{k\geq 0} \frac{1}{k!}(t\lam_{n})^{k}} \\
 &= \bm{e^{t\lam_{1}} & 0 & & \\ 0 & e^{t\lam_{2}} & & \\ & & \ddots & \\ &&&e^{t\lam_{n}}}.
-\end{align*}
+\end{align}
 
 ¡Listo!
 
@@ -339,9 +339,9 @@ D:Q.A.P;
 %
 
 Entonces, sabemos que
-\begin{align*}
+\begin{align}
  e^{tD}=\bm{e^{-t} & 0 \\ 0 & e^{2t}},
-\end{align*}
+\end{align}
 y podemos hallar $e^{tA}$ con la ecuación
 $$
 e^{tA}=Pe^{tD}P^{-1}.

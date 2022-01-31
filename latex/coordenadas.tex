@@ -14,11 +14,11 @@ Esto es cierto para cualquier otro conjunto que genere $V.$ Lo importante de una
 lineal de $E$, esta manera de escribir el vector es \emph{única}.
 
 Supongamos que podemos escribir $v=c_{1}e_{1}+...+c_{n}e_{n}.$ Entonces
-\begin{align*}
+\begin{align}
  0&=v-v \\
  &=(v_{1}e_{1}+...+v_{n}e_{n})-(c_{1}e_{1}+...+c_{n}e_{n}) \\
 &=(v_{1}-c_{1})e_{1}+...+(v_{n}-c_{n})e_{n}.
-\end{align*}
+\end{align}
 
 Como $E$ es linealmente independiente, entonces $v_{1}-c_{1}=...=v_{n}-c_{n}=0.$ Es decir,
 $$
@@ -109,19 +109,19 @@ f_{k}=\bm{f_{k,1}\\ \vdots \\ f_{k,n}}_{B}.
 $$
 
 Ahora bien
-\begin{align*}
+\begin{align}
  \bm{w_{1} \\ \vdots \\ w_{n}}_{F}
  &=w_{1}f_{1}+...+w_{n}f_{n} \\
  &=w_{1}\bm{f_{1,1}\\ \vdots \\ f_{1,n}}_{B}+...+w_{n}\bm{f_{n,1}\\ \vdots \\ f_{n,n}}_{B} \\
  &=\bm{w_{1}f_{1,1}+...+w_{n}f_{n,1}\\  \vdots \\
 w_{1}f_{1,n}+...+w_{n}f_{n,n} }_{B},
-\end{align*}
+\end{align}
 y como las coordenadas en una base son únicas, tenemos que
-\begin{align*}
+\begin{align}
  \bm{v_{1}\\ \vdots \\ v_{n}} & = \bm{w_{1}f_{1,1}+...+w_{n}f_{n,1}\\  \vdots \\
 w_{1}f_{1,n}+...+w_{n}f_{n,n} } \\
 &= \bm{f_{1,1} & ... & f_{1,n} \\ \vdots & & \vdots \\ f_{n,1} & ... & f_{n,n}} \bm{w_{1} \\ \vdots \\ w_{n}}
-\end{align*}
+\end{align}
 
 \begin{definicion}
  $$P_{F,B}:=\bm{f_{1,1} & ... & f_{1,n} \\ \vdots & & \vdots \\ f_{n,1} & ... & f_{n,n}}$$ se conoce como \emph{matriz

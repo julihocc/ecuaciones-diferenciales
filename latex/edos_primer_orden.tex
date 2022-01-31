@@ -2,81 +2,81 @@
 
 
   Cualquier ecuación diferencial de primer orden en la \emph{forma normal}
-     \begin{align*}
+     \begin{align}
    \dfrac{dy}{dx} = f(x,y)
-   \end{align*}
+   \end{align}
    puede ser reescrita en la \emph{forma diferencial}
-       \begin{align*}
+       \begin{align}
     M(x,y)dx+N(x,y)dy =0
-    \end{align*}
+    \end{align}
     y  viceversa.
 
 
 \subsection{Separación de variables}
 
 Una ecuación es \emph{separable} si se puede escribir en la forma.
- \begin{align*}
+ \begin{align}
  f_{1}(x)g_{1}(y)dx+f_{2}(x)g_{2}(y)dy = 0
- \end{align*}
+ \end{align}
 
 
 {}
 En ese caso, su solución  está dada por
-   \begin{align*}
+   \begin{align}
        \displaystyle \int \dfrac{f_{1}(x)}{f_{2}(x)}dx
        + \int \dfrac{g_{2}(y)}{g_{1}(y)}dy = c
-  \end{align*}
+  \end{align}
   siempre que $g_{1}(y)f_{2}(x)\neq 0$.
 
 
 
 	\begin{resuelto}
 		Resuelve la ecuación diferencial
-		\begin{align*}
+		\begin{align}
 		xdy-ydx=0
-		\end{align*}
+		\end{align}
 	\end{resuelto}
 
 \subsection{Ecuaciones exactas}
 
   Una ecuación
-     \begin{align*}
+     \begin{align}
    M(x,y)dx + N(x,y)dy = 0
-   \end{align*}
+   \end{align}
    es \emph{exacta} si
    existe una función diferenciable $U:\R^{2}\to \R$ tal que
-       \begin{align*}
+       \begin{align}
        M(x,y)dx + N(x,y)dy = dU(x,y) = 0
-    \end{align*}
+    \end{align}
 
 
 En ese caso, la solución está dada por
-\begin{align*}
+\begin{align}
 U(x,y) = c
-\end{align*}
+\end{align}
 
 
 {}
 Un criterio para determinar si una ecuación es exacta es verificar que
-\begin{align*}
+\begin{align}
     \dfrac{\partial M}{\partial y}= \dfrac{\partial N}{\partial x}
-    \end{align*}
+    \end{align}
 
 
 
 	\begin{resuelto}
 		Determina si la ecuación
-		\begin{align*}
+		\begin{align}
 			xdy-ydx=0
-		\end{align*}
+		\end{align}
 		es exacta.
 	\end{resuelto}
 
 {}
   De manera equivalente, podemos encontrar la solución de la siguiente manera
-  \begin{align*}
+  \begin{align}
    \displaystyle \int M\partial x+ \int \left( N - \dfrac{\partial }{\partial y}\int M\partial x \right)dy = c
-   \end{align*}
+   \end{align}
 
    donde \emph{$\partial x$} indica que la integración es realizada únicamente respecto a $x$, manteniendo $y$ constante.
 
@@ -84,23 +84,23 @@ Un criterio para determinar si una ecuación es exacta es verificar que
 
 	\begin{resuelto}
 		Demuestra que la ecuación
-		\begin{align*}
+		\begin{align}
 		\dfrac{xdy-ydx}{x^2}=0
-		\end{align*}
+		\end{align}
 		es exacta y resuelvela.
 	\end{resuelto}
 
 \subsection{Factor Integrante}
   Cuando una ecuación no es exacta, en ocasiones se puede encontrar de manera explícita una función $\mu:\R^{2}\to \R$ llamada \emph{factor integrante} tal que
-\begin{align*}
+\begin{align}
  \dfrac{\partial }{\partial y}\left( \mu M \right) =
  \dfrac{\partial }{\partial x}\left( \mu N \right)
- \end{align*}
+ \end{align}
 
  y por tanto
- \begin{align*}
+ \begin{align}
   \mu M dx + \mu N dy = 0
-  \end{align*}
+  \end{align}
   es exacta.
 
 
@@ -118,40 +118,40 @@ Un criterio para determinar si una ecuación es exacta es verificar que
 \subsection{Ecuaciones lineales}
 {}
   Diremos que una ecuación es lineal si se puede reescribir en la forma:
-  \begin{align*}
+  \begin{align}
    \dfrac{dy}{dx} + p(x)y=q(x)
-   \end{align*}
+   \end{align}
 
 
 {}
   En este caso, un factor integrantes está dado por
-  \begin{align*}\displaystyle
+  \begin{align}\displaystyle
    \mu = e^{\int p(x)dx}
-   \end{align*}
+   \end{align}
    y la ecuación se puede reescribir como
-   \begin{align*}
+   \begin{align}
     \dfrac{d}{dx}\left( \mu y  \right) = \mu q(x)
-    \end{align*}
+    \end{align}
 
 
 {}
   Entonces,
-  \begin{align*}\displaystyle
+  \begin{align}\displaystyle
    \mu y = \int \mu q(x) dx +c
-   \end{align*}
+   \end{align}
    y la solución está dada por
-   \begin{align*}\displaystyle
+   \begin{align}\displaystyle
     y & = e^{-\int pdx}\left( \int e^{\int p dx} q(x) dx +c \right)\\
     &= e^{-\int pdx}\int e^{\int p dx}  q(x) dx +c e^{-\int pdx}
-    \end{align*}
+    \end{align}
 
 
 {}
   \begin{resuelto}
    Reescribe la ecuación
-   \begin{align*}
+   \begin{align}
     xdy-ydx=0
-    \end{align*} en forma lineal;
+    \end{align} en forma lineal;
     calcula el factor integrante y resuelve.
   \end{resuelto}
 
@@ -160,9 +160,9 @@ Un criterio para determinar si una ecuación es exacta es verificar que
 \subsection{Ecuaciones homogéneas de orden cero}
 {}
   Diremos que una ecuación diferencial es \emph{homogénea de orden cero} si se puede reescribir como
-\begin{align*}
+\begin{align}
  \dfrac{dy}{dx}=F\left( \dfrac{y}{x} \right)
- \end{align*}
+ \end{align}
 
 
 {}
@@ -171,29 +171,29 @@ Un criterio para determinar si una ecuación es exacta es verificar que
 
 {}
   Entonces la ecuación diferencial se puede reescribir como
-  \begin{align*}
+  \begin{align}
    v+ x\dfrac{d\nu}{dx}= F(\nu)
-   \end{align*}
+   \end{align}
    o de manera equivalente
-   \begin{align*}
+   \begin{align}
     xd\nu + \left( F(\nu)-v \right)dx =0.
-    \end{align*}
+    \end{align}
 
 
 {}
   Entonces tiene su solución está dada por
-  \begin{align*}
+  \begin{align}
    \displaystyle
    \ln |x| = \int \dfrac{d\nu}{F(\nu)-\nu}+c
-   \end{align*}
+   \end{align}
 
 
 {}
   \begin{resuelto}
    Reescriba la ecuación
-   \begin{align*}
+   \begin{align}
     xdy-ydx=0
-    \end{align*}
+    \end{align}
     como una ecuación homogénea de orden cero y resuelva.
   \end{resuelto}
 
@@ -202,19 +202,19 @@ Un criterio para determinar si una ecuación es exacta es verificar que
 \subsection{Ecuaciones de Bernoulli}
 {}
   Diremos que una ecuación es de Bernoulli si se puede reescribir en la forma
-  \begin{align*}
+  \begin{align}
    \dfrac{dy}{dx}+p(x)y = q(x)y^{n}
-   \end{align*}
+   \end{align}
    siempre que $n \neq 0,1$
 
 
 {}
   En ese caso, hacemos la sustitución $\nu = y^{1-n}$ y la ecuación se reduce a una ecuación lineal, cuya solución está dada por
-  \begin{align*}
+  \begin{align}
   \displaystyle
    \nu e^{(1-n)\int pdx} =
    \left( 1-n \right) \int q e^{(1-n)\int pdx}+c
-   \end{align*}
+   \end{align}
 
 
 {}
@@ -232,9 +232,9 @@ Un criterio para determinar si una ecuación es exacta es verificar que
 {}
   \begin{resuelto}
    Resuelve la ecuación
-   \begin{align*}
+   \begin{align}
     x\dfrac{dy}{dx}+y=xy^{3}
-    \end{align*}
+    \end{align}
   \end{resuelto}
 
 
@@ -242,39 +242,39 @@ Un criterio para determinar si una ecuación es exacta es verificar que
 \subsection{Ecuaciones solubles}
 {}
   Diremos que una ecuación diferencial es soluble para $y$ si
-  \begin{align*}
+  \begin{align}
    y = g\left( x,p \right)
-   \end{align*}
+   \end{align}
    donde $p = y'$.
 
 
 {}
   En ese caso,
-  \begin{align*}
+  \begin{align}
    \dfrac{dy}{dx} = \dfrac{dg}{dx}
    = \dfrac{\partial g}{\partial x}+\dfrac{\partial g}{\partial p}\dfrac{\partial p}{\partial x}
-   \end{align*}
+   \end{align}
 
    o de manera equivalente
-   \begin{align*}
+   \begin{align}
     p = \dfrac{\partial g}{\partial x}+\dfrac{\partial g}{\partial p}\dfrac{\partial p}{\partial x}
-   \end{align*}
+   \end{align}
 
 
 {}
   Resolvemos la ecuación anterior para $p$
-  \begin{align*}
+  \begin{align}
    G\left( x,p,c \right)=0
-   \end{align*}
+   \end{align}
    y sustituimos en $y=g(x,p)$.
 
 
 {}
   \begin{resuelto}
    Resuelve la ecuación
-   \begin{align*}
+   \begin{align}
     xp^{2}+2px-y =0
-    \end{align*}
+    \end{align}
     donde $p=y'$.
   \end{resuelto}
 
@@ -283,25 +283,25 @@ Un criterio para determinar si una ecuación es exacta es verificar que
 \subsection{Ecuación de Clairaut}
 {}
   Diremos que una ecuación es de Clairaut si se puede reescribir como
-  \begin{align*}
+  \begin{align}
    y = px+F(p)
-   \end{align*}
+   \end{align}
    donde $p = y'$
 
 
 {}
   Este es un caso especial del tipo anterior con solución
-  \begin{align*}
+  \begin{align}
    y = cx + F(c)
-   \end{align*}
+   \end{align}
 
 
 {}
   \begin{resuelto}
    Resuelve la ecuación
-   \begin{align*}
+   \begin{align}
     y = px\pm \sqrt{p^{2}+1}
-    \end{align*}
+    \end{align}
     donde $p=y'$.
   \end{resuelto}
 
@@ -310,32 +310,32 @@ Un criterio para determinar si una ecuación es exacta es verificar que
  \subsection{Miscelanea}
  {}
    Si la ecuación se puede reescribir como
-   \begin{align*}
+   \begin{align}
     \dfrac{dy}{dx}=F\left( \alpha x +\beta y \right) ,
-    \end{align*} entonces la podemos reducir a una separable con la sustitución
-    \begin{align*}
+    \end{align} entonces la podemos reducir a una separable con la sustitución
+    \begin{align}
      \nu = \alpha + \beta y
-     \end{align*}
+     \end{align}
 
 
  {}
    Si la ecuación se puede reescribir como
-   \begin{align*}
+   \begin{align}
     \dfrac{dy}{dx} = F\left( \dfrac{
     \alpha_{1}x + \beta_{1} y + \gamma_{1}
     }{
     \alpha_{2}x + \beta_{2} y + \gamma_{2}
     } \right)
-    \end{align*}
+    \end{align}
 
 
  {}
    Si $
     \dfrac{\alpha_{1}}{\alpha_{2}}\neq \dfrac{\beta_{1}}{\beta_{2}}
     $, entonces podemos elegir constantes $h,k$ tales que la ecuación se reduce a una homogénea con el cambio de variables
-    \begin{align*}
+    \begin{align}
      x = X+h, y=Y+k
-     \end{align*}
+     \end{align}
 
 
  {}
@@ -354,9 +354,9 @@ Un criterio para determinar si una ecuación es exacta es verificar que
 {}
   \begin{resuelto}
    Resuelve la ecuación
-   \begin{align*}
+   \begin{align}
     y''+2y'=4x
-    \end{align*}
+    \end{align}
   \end{resuelto}
 
 
@@ -364,9 +364,9 @@ Un criterio para determinar si una ecuación es exacta es verificar que
 {}
   \begin{resuelto}
    Resuelve la ecuación
-   \begin{align*}
+   \begin{align}
     1+yy''+y'^{2} = 0
-    \end{align*}
+    \end{align}
   \end{resuelto}
 con la reducción de orden $y'=p$.
 
