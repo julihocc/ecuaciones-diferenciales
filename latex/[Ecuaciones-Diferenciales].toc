@@ -2,16 +2,16 @@
 \contentsline {chapter}{\numberline {1}Ecuaciones de primer orden}{7}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Fundamentos de Ecuaciones Diferenciales}{7}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Conceptos básicos}{7}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Soluciones de ecuaciones diferenciales}{9}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.2}Soluciones de ecuaciones diferenciales}{10}{subsection.1.1.2}%
 \contentsline {subsection}{\numberline {1.1.3}Ejemplos de soluciones}{10}{subsection.1.1.3}%
 \contentsline {section}{\numberline {1.2}Ecuaciones Especiales de Primer Orden}{17}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Separación de variables}{17}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Ecuaciones exactas}{17}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.2}Ecuaciones exactas}{18}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Factor Integrante}{18}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Ecuaciones lineales}{18}{subsection.1.2.4}%
-\contentsline {subsection}{\numberline {1.2.5}Ecuaciones homogéneas de orden cero}{19}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.4}Ecuaciones lineales}{19}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Ecuaciones homogéneas de orden cero}{20}{subsection.1.2.5}%
 \contentsline {subsection}{\numberline {1.2.6}Ecuaciones de Bernoulli}{20}{subsection.1.2.6}%
-\contentsline {subsection}{\numberline {1.2.7}Ecuaciones solubles}{20}{subsection.1.2.7}%
+\contentsline {subsection}{\numberline {1.2.7}Ecuaciones solubles}{21}{subsection.1.2.7}%
 \contentsline {subsection}{\numberline {1.2.8}Ecuación de Clairaut}{21}{subsection.1.2.8}%
 \contentsline {subsection}{\numberline {1.2.9}Miscelanea}{21}{subsection.1.2.9}%
 \contentsline {subsection}{\numberline {1.2.10}Reducción de orden}{22}{subsection.1.2.10}%
